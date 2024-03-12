@@ -35,3 +35,11 @@ Write a class docstring in the `Circle` class that includes **two** doctests.
 
 2. Illegal case. Doctest creates a circle with negative radius. It should raise exception.  In your doctest, use `...` to skip the stacktrace output.
 
+
+## Problem 3. Write a Singleton
+
+Use the code in the [counter](./counter) subdirectory.
+
+1. Complete code in the `Counter` class and make it a singleton.
+
+2. Write two unit tests to verify that it is a Singleton and that all references share the same count.  New references should **not** cause the counter to reset to zero.
